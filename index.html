@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Instagram</title>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen gap-4 p-4 bg-gray-50 sm:flex-row sm:gap-8"
+  >
+    <div class="flex items-center justify-center flex-col">
+      <img src="landing-2x.png" alt="" />
+    </div>
+    <div>
+      <div class="flex items-center justify-center mb-4">
+        <img class="w-50" src="instagram-logo-1.png" alt="" />
+      </div>
+      <form action="">
+        <div class="mt-4 w-80 p-1 flex flex-col border rounded">
+          <input
+            class="w-full p-2 mb-1 text-sm bg-gray-50 focus:outline-none focus:border-blue-500 outline-none"
+            type="text"
+            type="email"
+            type="number"
+            placeholder="Telefone, nome de usuario ou email"
+          />
+        </div>
+        <div
+          class="mt-4 w-80 p-1 flex flex-col border rounded justify-center items-center"
+        >
+          <input
+            class="w-full p-2 mb-1 text-sm bg-gray-50 focus:outline-none focus:border-blue-500 outline-none items-center justify-center"
+            type="password"
+            placeholder="Senha"
+          />
+        </div>
+        <button
+          class="w-80 p-2 mt-4 bg-blue-500 text-white rounded-lg text-sm font-semibold hover:bg-blue-600"
+        >
+          Entrar
+        </button>
+      </form>
+      <div class="flex items-center gap-2 my-4 w-80">
+        <hr class="flex-1 border-gray-300" />
+        <p class="text-sm text-gray-500">ou</p>
+        <hr class="flex-1 border-gray-300" />
+      </div>
+      <div class="flex flex-col items-center gap-2 mb-4">
+        <div
+          class="flex items-center justify-center gap-2 text-sm text-blue-600 font-semibold mb-4"
+        >
+          <i class="fa-brands fa-facebook text-blue-600 text-[30px]"></i>
+          <a class="hover:underline text-blue-600 text-sm" href=""
+            >Entrar com Facebook</a
+          >
+        </div>
+        <a class="text-sm text-blue-600 hover:underline" href=""
+          >Esqueceu a senha?</a
+        >
+      </div>
+      <div
+        class="w-80 p-4 text-center text-sm flex items-center justify-center gap-2"
+      >
+        <p class="text-gray-500 text-sm">Não tem uma conta?</p>
+        <a class="text-blue-600 hover:underline" href="">Cadastre-se</a>
+      </div>
+    </div>
+  </body>
+</html>
